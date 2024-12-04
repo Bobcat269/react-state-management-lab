@@ -1,3 +1,15 @@
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  background-color: #1a1f24; /* dark background */
+  color: #ecf0f1; /* light text for contrast */
+  border-color: #263b50; /* slightly darker border for depth */
+  font-family: 'Arial', sans-serif;
+  }
+
 ul {
   display: flex;
   flex-wrap: wrap;
@@ -6,4 +18,12 @@ ul {
 li {
   list-style: none;
   margin: 10px;
+}
+
+.noTeam{
+  display: show;
+}
+
+.team{
+  display: none;
 }
